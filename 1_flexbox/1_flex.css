@@ -4,3 +4,55 @@
     font-family: "Courier New", Courier, monospace;
     box-sizing: border-box;
 }
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 500px;
+    width: 1000px;
+    
+}
+.div1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    
+}
+.bloque1{
+    background-color: gray;
+    height: 50px;
+    width: 100px;
+}
+.bloque2{
+    background-color: rgb(172, 3, 3);
+    height: 50px;
+    width: 100px;
+
+}
+.div2{
+    align-self: center;
+    min-width: 50px;
+    min-height: 100px;
+
+}
+.bloque3{
+    height: 100px;
+    width: 50px;
+    background-color: rebeccapurple;
+}
+.div3{
+    display:flex;
+    flex-direction: column-reverse;
+    align-self: flex-end;
+
+  
+}
+.bloque4{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    align-self:flex-end ;
+}
